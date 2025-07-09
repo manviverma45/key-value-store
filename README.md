@@ -1,94 +1,54 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🚀 Distributed In-Memory Key-Value Store (with React Frontend + Java/Node Backend)
+# 🚀 Distributed In-Memory Key-Value Store (React + Node/Java Backend)
 
-A fast, lightweight, distributed **In-Memory Key-Value Store** inspired by Redis.  
-This project supports basic key-value operations and includes a modern React-based user interface.
+A fast, lightweight, distributed **In-Memory Key-Value Store** inspired by Redis, featuring:
+- ⚡ React-based Modern Web UI (Dark Mode)
+- 📝 Command-based Key-Value Operations (SET, GET, DELETE, KEYS)
+- 📡 Backend Server (Node.js + optional Java TCP Server)
+- 📦 Minimal dependencies & easy deployment
 
----
-
-## 🏗️ Features
-- ✅ Set, Get, Delete keys in-memory.
-- ✅ Fetch all stored keys.
-- ✅ LRU Cache mechanism for memory optimization (Backend).
-- ✅ Multi-threaded, concurrent client support (Java TCP/IP Backend).
-- ✅ Modern, Dark-themed React UI with:
-  - Command execution
-  - Key Management
-  - Key Listing & Value Fetching
-  
----
-
-## 💻 Tech Stack
-| Layer        | Technology              |
-|--------------|-------------------------|
-| Frontend     | React, Axios, Tailwind CSS (Dark Mode) |
-| Backend (API)| Node.js, Express         |
-| Core Engine  | Java (TCP/IP Sockets, Multithreading, HashMap, LRU Cache) |
-
----
-
-## 📝 Commands Supported
-- `SET <key> <value>` → Store a key-value pair.
-- `GET <key>` → Retrieve a value by key.
-- `DELETE <key>` → Delete a key-value pair.
-- `KEYS` → Fetch all stored keys.
-
----
-
-## 📂 Project Structure
-KeyValueStore/
-│
-├── backend/ → Node.js Backend API (connects React ↔ Java TCP)
-│ ├── server.js
-│ └── package.json
-│
-├── java-tcp-server/ → Java TCP Socket Key-Value Engine
-│ ├── src/
-│ │ ├── server/
-│ │ └── LRUCache.java
-│ └── bin/
-│
-├── my-key-value-ui/ → React Frontend (Modern UI)
-│ ├── src/
-│ │ ├── components/
-│ │ ├── App.js
-│ │ └── index.js
-│ └── package.json
-│
-├── .gitignore
-└── README.md
+📦 Tech Stack:
+Frontend: React, Axios, Tailwind CSS
+Backend: Node.js (Express), Java (TCP Server)
+Language: Java, JavaScript
 
 
 ---
 
-## ⚙️ Installation & Run
+## 📂 Project Structure:
+/backend → Node.js API (Handles HTTP requests to Java TCP Server)
+└── server.js → Express-based REST API
+/java-tcp-server → Java-based TCP Key-Value Server (Handles core KV logic)
+/my-key-value-ui → React Frontend (User Interface + API Integration)
 
-### 🔸 1. Java TCP Backend (Key-Value Engine)
+## ✅ Features:
+- **Set** key-value pairs: `SET key value`
+- **Get** value by key: `GET key`
+- **Delete** keys: `DELETE key`
+- **Fetch All Keys**: `KEYS`
+- Sleek Dark UI with modern look  
+- Separate backend & frontend for scalability
 
+---
+## 🏁 Quick Start
+
+### 1️⃣ Java TCP Server
+```bash
 cd java-tcp-server
-javac -d bin src/server/*.java
-java -cp bin server.KeyValueStoreServer
+javac -d bin src/KeyValueStoreServer.java
+java -cp bin KeyValueStoreServer
 
-🔸 2. Node.js Backend (API Layer)
+2️⃣ Node.js Backend (API Layer)
+
 cd backend
 npm install
 node server.js
 
-🔸 3. React Frontend (UI)
+3️⃣ React Frontend (User Interface)
+
 cd my-key-value-ui
 npm install
 npm start
 
-
-🌐 Accessing The App
-Open:
-
-http://localhost:3000
-
-=======
-# key-value-store
->>>>>>> 1d1a7625ec8fd845d73ec1eb0f3869c9aad0fd79
-=======
-# key-value-store
->>>>>>> 8bf57f914d5e32d27d59af70e1d958af137518f6
+💻 Author:
+Developed by Manvi Verma
+Feel free to ⭐ star this repo if you found it useful!
