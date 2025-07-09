@@ -1,0 +1,15 @@
+# Node
+node_modules/
+npm-debug.log
+.env
+
+# VSCode
+.vscode/
+
+# OS Junk
+.DS_Store
+Thumbs.db
+
+# Build Files
+/build
+/dist
