@@ -6,11 +6,17 @@ A fast, lightweight, distributed **In-Memory Key-Value Store** inspired by Redis
 - 📡 Backend Server (Node.js + optional Java TCP Server)
 - 📦 Minimal dependencies & easy deployment
 
-📦 Tech Stack:
-Frontend: React, Axios, Tailwind CSS
-Backend: Node.js (Express), Java (TCP Server)
-Language: Java, JavaScript
+## 💡 Tech Stack:
 
+| Layer       | Technology              | Description                              |
+|-------------|-------------------------|------------------------------------------|
+| 🎨 Frontend | React                   | UI library for building web interface    |
+|             | Axios                   | HTTP client for API requests             |
+|             | Tailwind CSS (Dark Mode)| Utility-first CSS for modern styling     |
+| 🔧 Backend  | Node.js (Express)       | REST API to connect frontend & Java server|
+|             | Java (TCP Socket)       | Core TCP-based Key-Value store server    |
+| 📦 Package  | NPM                     | Node Package Manager                     |
+| 🌐 Protocol | HTTP / TCP              | Communication protocols
 
 ---
 
