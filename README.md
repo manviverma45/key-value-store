@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🚀 Distributed In-Memory Key-Value Store (with React Frontend + Java/Node Backend)
 
 A fast, lightweight, distributed **In-Memory Key-Value Store** inspired by Redis.  
@@ -88,3 +89,6 @@ http://localhost:3000
 =======
 # key-value-store
 >>>>>>> 1d1a7625ec8fd845d73ec1eb0f3869c9aad0fd79
+=======
+# key-value-store
+>>>>>>> 8bf57f914d5e32d27d59af70e1d958af137518f6
