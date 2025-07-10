@@ -22,15 +22,15 @@ A fast, lightweight, distributed **In-Memory Key-Value Store** inspired by Redis
 ## 📸 UI Screenshots:
 
 <p align="center">
-  <img src="./Screenshot/s1.png" width="600" alt="Dashboard"/>
+  <img src="./Screenshots/S1.png" width="600" alt="Dashboard"/>
 </p>
 
 <p align="center">
-  <img src="./Screenshot/s2.png" width="600" alt="Key Manager"/>
+  <img src="./Screenshots/S2.png" width="600" alt="Key Manager"/>
 </p>
 
 <p align="center">
-  <img src="./Screenshot/s3.png" width="600" alt="Keys List"/>
+  <img src="./Screenshots/S3.png" width="600" alt="Keys List"/>
 </p>
 
 
